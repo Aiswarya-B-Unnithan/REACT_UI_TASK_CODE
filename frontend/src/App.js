@@ -92,7 +92,7 @@ const App = () => {
         </div>
       )}
       {allPagesLoaded && !loading && (
-        <p className="text-center mt-8 text-gray-500 font-bold text-xl">END</p>
+        <p className="text-center mt-8 text-gray-500 font-bold text-xl">END OF THE ARTICLES</p>
       )}
       {!allPagesLoaded && (
         <InfiniteScroll
