@@ -7,7 +7,7 @@ const App = () => {
   const [loading, setLoading] = useState(false);
   const [page, setPage] = useState(1);
   const [allPagesLoaded, setAllPagesLoaded] = useState(false);
-  const fetchCalled = useRef(false); // Ref to track whether fetchData has been called
+  const fetchCalled = useRef(false); 
 
   const formatDate = (dateString) => {
     return moment(dateString).format("MMM DD, YYYY hh:mm A [IST]");
